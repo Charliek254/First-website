@@ -10,6 +10,7 @@ body{
   background-image: url(image/ds.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 10px;
 }
 .one{
   background-image: url(image/background.jpg);
