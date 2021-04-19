@@ -135,3 +135,8 @@ ul{
   flex: 25%;
   margin: 20px;
 }
+#foot{
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+}
