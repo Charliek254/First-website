@@ -29,3 +29,12 @@
   text-align: center;
   padding-bottom: 40px;
 }
+.content p{
+  margin: auto;
+  font-size: 20px;
+  color: #1c97a0;
+  font-weight: bold;
+}
+.content h2{
+  font-size: 40px;
+}
