@@ -3,8 +3,13 @@
   padding: 0%;
 }
 body{
-  background-color: rgb(58, 56, 56);
-  color: white;
+  background-color: rgb(20, 20, 20);
+  color: rgb(244, 251, 252);
+}
+#bckgrnd{
+  background-image: url(image/ds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .one{
   background-image: url(image/background.jpg);
@@ -50,6 +55,38 @@ body{
 .content-text{
   font-size: 19px;
 }
+#the-txt{
+  display: flex;
+}
+.list-songs{
+  width: 50%;
+  float: left;
+  padding: 20px;
+  margin-right: 10px;
+}
+.albm{
+  width: 50%;
+  float: left;
+  padding: 20px;
+  margin-right: 10px;
+}
+.lik-fav{
+  width: 50%;
+  float: left;
+  padding: 20px;
+  margin-right: 10px;
+}
+.tours{
+  width: 50%;
+  float: left;
+  padding: 20px;
+  margin-right: 10px;
+}
+.tours h2{
+  font-size: 35;
+  color: #1c97a0;
+  padding-left: 20px;
+}
 .list-songs h2{
   font-size: 35;
   color: #1c97a0;
@@ -63,6 +100,9 @@ body{
 }
 ol{
   padding-left: 40px;
+}
+ul{
+  list-style-type: none;
 }
 .albm h2{
   font-size: 35;
@@ -82,24 +122,16 @@ ol{
   padding-bottom: 10px;
 }
 .container{
-  max-width: 1000px;
-  margin: auto;
-  overflow: auto;
-
+  display: flex;
+  flex-direction: column;
+  background: #1c1d1d url(image/bck2.png) 0px -100px no-repeat ;
+  display: flex;
+}
+.members{
+  display: flex;
+  text-align: center;
 }
 .image{
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 300px;
-}
-.desc h3{
-  font-size: 35;
-  color: #1c97a0;
-  padding-left: 20px;
-}
-.desc p{
-  padding-left: 10px;
-  padding-right: 30px;
-  padding-bottom: 20px;
+  flex: 25%;
+  margin: 20px;
 }
