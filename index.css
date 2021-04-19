@@ -2,6 +2,10 @@
   margin: 0%;
   padding: 0%;
 }
+body{
+  background-color: rgb(58, 56, 56);
+  color: white;
+}
 .one{
   background-image: url(image/background.jpg);
   background-position: center;
@@ -59,4 +63,43 @@
 }
 ol{
   padding-left: 40px;
+}
+.albm h2{
+  font-size: 35;
+  color: #1c97a0;
+  padding-left: 20px;
+}
+.albm ul{
+  padding-left: 40px;
+}
+.lik-fav h2{
+  font-size: 35;
+  color: #1c97a0;
+  padding-left: 20px;
+}
+.lik-fav ul{
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+.container{
+  max-width: 1000px;
+  margin: auto;
+  overflow: auto;
+
+}
+.image{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+}
+.desc h3{
+  font-size: 35;
+  color: #1c97a0;
+  padding-left: 20px;
+}
+.desc p{
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-bottom: 20px;
 }
